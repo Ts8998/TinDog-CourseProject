@@ -32,7 +32,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Nav Bar */
@@ -64,14 +64,36 @@ p {
 
 /* Title IMG */
 .title-image {
-  width: 60%;
+  width: 50%;
+  /* top: -40px; */
   transform: rotate(25deg);
+  /* z-index: -1; */
+  position: absolute;
+  /* position: relative; */
+  right: 30%;
 }
 
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
 /* Features Section */
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* top: 10rem; */
+  /* bottom: 10rem;
+  z-index: 1; */
 }
 
 .feature-box {
