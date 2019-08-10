@@ -28,10 +28,22 @@ p {
   line-height: 1.5;
 }
 
+/* Containers */
+
 .container-fluid {
   padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
 
 /* Nav Bar */
 .navbar {
@@ -56,14 +68,9 @@ p {
 
 /* Title Section */
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
 #title .container-fluid {
   padding: 2% 15% 7%;
+  text-align: left;
 }
 
 
@@ -98,12 +105,15 @@ p {
 }
 /* Features Section */
 
-#features {
-  background-color: #fff;
+/* #features {
   position: relative;
   /* top: 10rem; */
   /* bottom: 10rem;
-  z-index: 1; */
+  z-index: 1;
+} */
+
+section:nth-of-type(2) {
+  position: relative;
 }
 
 .feature-title {
@@ -129,8 +139,8 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
+
 
 .testimonial-text {
   font-weight: 700;
@@ -174,17 +184,6 @@ p {
 }
 
 /* CTA Section */
-
-#cta {
-  background-color: #ff4C68;
-  color: #fff;
-}
-
-.cta-heading {
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
 
 /* Footer Section */
 
